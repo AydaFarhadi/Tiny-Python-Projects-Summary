@@ -52,3 +52,6 @@ def test_input():
             rv, out = getstatusoutput(f'{prg} {option} {val}')
             assert rv == 0
             assert out.strip() == f'Hello, {val}!'
+
+            
+            
