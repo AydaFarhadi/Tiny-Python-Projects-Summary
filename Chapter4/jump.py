@@ -3,8 +3,8 @@ import argparse
 
 def get_args():
     """
-    1. Use argparse. we create parser object from argparse library that is imported and use its functions
-    2. Use "add_argument" function to get argument from user. Here argument is text. 
+    ArgumentParser is a class of argparse module. We create parser object from argparse library that is imported and use its functions
+    Then we use "add_argument" function to get argument from user. Here argument is text. 
     """
     parser=argparse.ArgumentParser(description='jump the five', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('text',help='input text', type=str,metavar='str')
